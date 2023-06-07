@@ -2,7 +2,7 @@
 {
     public class Patient
     {
-        public string Id { get; set; } // Unique identifier for the patient in your API
+        public string Id { get; set; } // Unique identifier for the patient in API
         public string PatientId { get; set; } // Original patient ID from the patient-service API
         public string FirstName { get; set; }
         public string LastName { get; set; }

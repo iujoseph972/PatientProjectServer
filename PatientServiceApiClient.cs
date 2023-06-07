@@ -40,7 +40,7 @@
             // Find the patient by matching the patientId
             var patient = patients.FirstOrDefault(p => p.PatientId == patientId);
 
-            return patient;
+            return patient; // return specific patient
         }
 
     }
